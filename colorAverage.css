@@ -1,0 +1,52 @@
+* {
+	font-family: 'Libre Franklin', helvetica, sans-serif;
+	
+}
+
+body {
+	background-color: #a0a0a0;
+}
+ 
+
+#banner {
+	background-color: white;
+	color: #333333;
+	text-align: center;
+	min-width: 100%;
+	height: auto;
+	padding: 20px;
+	box-shadow: 0px 0px 5px black;
+	margin: -10px 0px 20px -10px;
+}
+
+h1 {
+	font-family: 'Bowlby One SC', tahoma, sans-serif;
+	
+}
+
+button {
+	height: 25px;
+	width: auto;
+	
+}
+
+#content {
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.col-xs-4 {
+	min-height: 200px;
+	width: 33.33%;
+	
+}
+
+.container-fluid {
+	position: absolute;
+	bottom: 0;	 
+}
+
+.container {
+	background-color: #eaeaea;
+}

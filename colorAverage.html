@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+	<head>
+		<title>Hex Color Average Finder</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet"> 
+		<link rel="stylesheet" href="colorAverage.css">
+		
+		<script src="colorAverage.js"></script>
+	</head>
+	<body>
+		
+		<div id="banner">
+				<h1>Find The Average Of Two Hexadecimal Colors</h1>
+				<p>A simple function by Ryan Neilson</p>
+		</div>
+		
+		<div class ="container">
+			<div id="content">
+				<p>Input two 6-character hexadecimal color values in the corresponding input boxes below.<br> 
+				Then click submit to see the average of the two colors as both a hexadecimal code and visual display.</p>
+				Color 1: #<input type="text" size="8" id="color1">&nbsp;Actual: <input id="color1Display" size="10"><br><br>
+				Color 2: #<input type="text" size="8" id="color2">&nbsp;Actual: <input id="color2Display" size="10"><br><br>
+				Avg Color: #<span id="finalColorCode"></span>&nbsp;<input id="finalColorDisplay" size="10"><br><br>
+				<button onclick="colorAvg()" value"Submit">Submit</button><br>
+				<br>
+				<br>
+			</div>
+			
+				<div class="row">
+					<div class="col-xs-4" id="color1Column"></div>
+					<div class="col-xs-4" id="color2Column"></div>
+					<div class="col-xs-4"id="finalColorColumn"></div>
+				</div>
+			
+		</div><!--container--> 
+	</body>
+</html>
